@@ -10,7 +10,7 @@ import useModal from '../../hooks/useModal'
 
 const SECONDS_PER_YEAR = 365 * 24 * 3600
 
-export default function namehash() {
+export default function Namehash() {
 
   const { currentUser, isInitialized, checkInit } = useAuth()
   const [setError, ErrorModal] = useModal()
